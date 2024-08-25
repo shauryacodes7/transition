@@ -1,0 +1,12 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  /* transition: all 1s ease 10ms; */
+  transition: transform 5s ease;
+}
+.container:hover {
+  transform: translateX(500px) rotate(360deg);
+  background-color: aqua;
+}
